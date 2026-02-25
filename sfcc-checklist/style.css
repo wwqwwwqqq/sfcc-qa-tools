@@ -66,14 +66,21 @@ table {
 
 .general_checklist_div{ 
 	width: 1106px;
-	height: 790px;
+	height: 937px;
 	background-color: #ffffff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-
+.homepage_checklist_div{ 
+	width: 1106px;
+	height: 920px;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
  /*------------------------------------------------------  TABLE DIVS End ------------------------------------------------------ */ 
 
 
@@ -84,8 +91,8 @@ table {
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 18px;
-  margin-left: 15px;
+  margin-bottom: 23.5px;
+  margin-left: 16px;
   margin-top: 1.5px;
   cursor: pointer;
   font-size: 22px;
@@ -111,9 +118,9 @@ table {
   position: absolute;
   top: 0;
   left: 0;
-  height: 16px;
-  width: 16px;
-  background-color: #d4d4d4;
+  height: 20px;
+  width: 20px;
+  /* background-color: #d4d4d4; */
 }
 
 /* On mouse-over, add a grey background color */
@@ -140,10 +147,10 @@ table {
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
-  left: 5px;
+  left: 6px;
   top: 0px;
   width: 5px;
-  height: 10px;
+  height: 15px;
   border: solid white;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);

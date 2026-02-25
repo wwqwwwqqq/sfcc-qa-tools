@@ -24,7 +24,16 @@ btn.addEventListener('click', () => {
 	})
 })
 
-
+btn.addEventListener('click', () => {
+	html2canvas(document.querySelector('.homepage_checklist_div'))
+	.then(canvas => {
+		const url = canvas.toDataURL('image/png');
+		const a = document.createElement('a');
+		a.setAttribute('download', 'Checklist.png');
+		a.setAttribute('href',url);
+		a.click();
+	})
+})
 
 
 
