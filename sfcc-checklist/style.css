@@ -32,6 +32,8 @@ table, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
 	font-family: "Montserrat", sans-serif;
+  font-size: 11pt;
+  text-align: left;
 	
 }
 table {
@@ -95,7 +97,7 @@ table {
   margin-left: 16px;
   margin-top: 1.5px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 10px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
