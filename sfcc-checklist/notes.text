@@ -1,0 +1,26 @@
+checkbox with hover checked only
+<td> <label class="container" onmouseover="this.querySelector('input').checked = true"> 
+                    <input type="checkbox" > <span class="checkmark"></span> </label> </td> <!-- Y/N -->
+
+
+
+
+checkbox with hover checked and unchecked
+<td> <label class="container" onmouseover="let cb = this.querySelector('input'); cb.checked = !cb.checked;"> 
+                    <input type="checkbox" > <span class="checkmark"></span> </label> </td> <!-- Y/N -->
+
+
+
+
+
+no hover effect
+<td> <label class="container"> <input type="checkbox" > <span class="checkmark"></span> </label> </td> <!-- Y/N -->
+
+
+
+
+ <!-- Scopes and Limitations -->
+ <!-- Y -->
+ <!-- N -->
+ <!-- Y/N -->
+ <!-- Remarks -->

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+
+    <h2 style="text-align: center; color:black;"> Checklist</h2>
+
+<div class="template_checklist_div" >
+<div id="table" class="table-editable" >
+
+<div style="display: flex; align-items: flex-start; gap: 15px; ">
+
+    <!-- Checklist table -->
+    <table class="table table-bordered" style="width: 850px;">
+        <thead>
+            <tr >
+                <th bgcolor="#8e7cc3" style="font-size:11pt; width: 60%; text-align:left "></th> <!-- Scopes and Limitations -->
+                <th bgcolor="#8e7cc3" style="width: 5% ">Y/N</th> <!-- Y/N -->
+                <th bgcolor="#8e7cc3" style="width: 40%; text-align:left "><i>Remarks if there's any</i></th> <!-- Remarks -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align:left; font-size:11pt; "></td> <!-- Scopes and Limitations -->
+                <td> <label class="container" onmouseover="this.querySelector('input').checked = true"> 
+                    <input type="checkbox" > <span class="checkmark"></span> </label> </td> <!-- Y/N -->
+                <td contenteditable="true" style="text-align:left; font-size:11pt; "></td> <!-- Remarks -->
+            </tr>
+
+
+            <!-- Others -->
+            <tr>
+                <td style="text-align:left; font-size:11pt; font-weight:bold;">Others:  </td> <!-- Scopes and Limitations -->
+                <td> <label class="container" onmouseover="this.querySelector('input').checked = true"> 
+                    <input type="checkbox" > <span class="checkmark"></span> </label> </td> <!-- Y/N -->
+                <td contenteditable="true" style="text-align:left; font-size:11pt; "></td> <!-- Remarks -->
+            </tr>
+            
+        </tbody>
+    </table>
+
+</div>
+</table>
+</div>
+</div>
+<button class="takeImageBtn takeImageBtn1" >Screenshot</button>
+<!-- End Checklist table -->
+
+</body>
+</html>
+
+<script src="./html2canvas.js"></script>
+<script src="./index.js"></script>
+
